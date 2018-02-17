@@ -66,16 +66,22 @@ namespace VolvoFleetManager.Data.Repositories
         {
             DbEntityEntry dbEntityEntry = DbContext.Entry<T>(entity);
             DbContext.Set<T>().Add(entity);
+
+            DbContext.SaveChanges();
         }
         public virtual void Edit(T entity)
         {
             DbEntityEntry dbEntityEntry = DbContext.Entry<T>(entity);
             dbEntityEntry.State = EntityState.Modified;
+
+            DbContext.SaveChanges();
         }
         public virtual void Delete(T entity)
         {
             DbEntityEntry dbEntityEntry = DbContext.Entry<T>(entity);
             dbEntityEntry.State = EntityState.Deleted;
+
+            DbContext.SaveChanges();
         }
     }
 }
