@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolvoFleetManager", "VolvoFleetManager\VolvoFleetManager.csproj", "{F99629E8-A9A6-4772-A1D2-DB67FF4A8C0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolvoFleetManager.Presentation", "VolvoFleetManager\VolvoFleetManager.Presentation.csproj", "{F99629E8-A9A6-4772-A1D2-DB67FF4A8C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolvoFleetManager.Entities", "VolvoFleetManager.Entities\VolvoFleetManager.Entities.csproj", "{CA0F17EC-5E69-4923-A655-06D64A208969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolvoFleetManager.Data", "VolvoFleetManager.Data\VolvoFleetManager.Data.csproj", "{9EE340BF-F266-4D75-8F93-E0865E346E21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F99629E8-A9A6-4772-A1D2-DB67FF4A8C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F99629E8-A9A6-4772-A1D2-DB67FF4A8C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F99629E8-A9A6-4772-A1D2-DB67FF4A8C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0F17EC-5E69-4923-A655-06D64A208969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0F17EC-5E69-4923-A655-06D64A208969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0F17EC-5E69-4923-A655-06D64A208969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0F17EC-5E69-4923-A655-06D64A208969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE340BF-F266-4D75-8F93-E0865E346E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE340BF-F266-4D75-8F93-E0865E346E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE340BF-F266-4D75-8F93-E0865E346E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE340BF-F266-4D75-8F93-E0865E346E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
