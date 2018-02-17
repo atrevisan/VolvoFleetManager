@@ -7,8 +7,11 @@ using VolvoFleetManager.Entities.Enumerations;
 
 namespace VolvoFleetManager.Entities
 {
-    public class Vehicle
+    public class Vehicle : IEntityBase
     {
+
+        public int ID { get; set; }
+
         public string ChassisId { get; set; }
 
         public VehicleType Type { get; set; }
@@ -32,6 +35,5 @@ namespace VolvoFleetManager.Entities
         }
 
         public string Color { get; set; }
-
     }
 }

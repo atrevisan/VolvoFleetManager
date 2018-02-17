@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace VolvoFleetManager.Entities
 {
-    public class Fleet
+    public class Fleet : IEntityBase
     {
-        public IEnumerable<Vehicle> Vehicles { get; set; }
+        public int ID { get; set; }
+
+        public List<Vehicle> Vehicles { get; set; }
     }
 }

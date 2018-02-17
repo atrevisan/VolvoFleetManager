@@ -40,8 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enumerations.cs" />
+    <Compile Include="Enumerations\Enumerations.cs" />
     <Compile Include="Fleet.cs" />
+    <Compile Include="IEntityBase.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
